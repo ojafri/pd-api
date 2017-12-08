@@ -1,0 +1,504 @@
+[
+  {
+    "_id": "4.6:x1083601256:477 CONNECTICUT BLVD:EAST HARTFORD:CT:061083228",
+    "practitioners": [
+      {
+        "_id": "4.6:x1083601256",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1083601256"
+        },
+        "name": {
+          "first": "ANIL",
+          "middle": "K",
+          "last": "VITHALA"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "207R00000X",
+        "classification": "INTERNAL MEDICINE",
+        "specialization": "",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1083601256",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1083601256"
+      },
+      "name": "ANIL K VITHALA",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1083601256"
+        }
+      ]
+    },
+    "address": {
+      "line1": "477 CONNECTICUT BLVD",
+      "line2": "SUITE 117",
+      "city": "EAST HARTFORD",
+      "state": "CT",
+      "zip": "061083228"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -72.65445,
+        41.769314
+      ]
+    },
+    "phone": "8602890470",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr6",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1154410561:596 BURNSIDE AVE:EAST HARTFORD:CT:061083538",
+    "practitioners": [
+      {
+        "_id": "4.6:x1154410561",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1154410561"
+        },
+        "name": {
+          "first": "GARY",
+          "middle": "L",
+          "last": "VROOMAN"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "152W00000X",
+        "classification": "OPTOMETRIST",
+        "specialization": "",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1154410561",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1154410561"
+      },
+      "name": "GARY L VROOMAN",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1154410561"
+        }
+      ]
+    },
+    "address": {
+      "line1": "596 BURNSIDE AVE",
+      "city": "EAST HARTFORD",
+      "state": "CT",
+      "zip": "061083538"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -72.613848,
+        41.778939
+      ]
+    },
+    "phone": "8605286819",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr7",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1295760742:11 CENTRAL AVE:EAST HARTFORD:CT:061083102",
+    "practitioners": [
+      {
+        "_id": "4.6:x1295760742",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1295760742"
+        },
+        "name": {
+          "first": "JEFFREY",
+          "middle": "D",
+          "last": "MARTONE"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "213E00000X",
+        "classification": "PODIATRIST",
+        "specialization": "",
+        "system": "2.16.840.1.113883.6.101"
+      },
+      {
+        "code": "213ES0103X",
+        "classification": "PODIATRIST",
+        "specialization": "FOOT & ANKLE SURGERY",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1295760742",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1295760742"
+      },
+      "name": "JEFFREY D MARTONE",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1295760742"
+        }
+      ]
+    },
+    "address": {
+      "line1": "11 CENTRAL AVE",
+      "city": "EAST HARTFORD",
+      "state": "CT",
+      "zip": "061083102"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -72.644325,
+        41.767724
+      ]
+    },
+    "phone": "8602894500",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr8",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1649241647:893 MAIN ST:EAST HARTFORD:CT:061082292",
+    "practitioners": [
+      {
+        "_id": "4.6:x1649241647",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1649241647"
+        },
+        "name": {
+          "first": "THOMAS",
+          "middle": "J",
+          "last": "PRIGNANO"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "152WC0802X",
+        "classification": "OPTOMETRIST",
+        "specialization": "CORNEAL AND CONTACT MANAGEMENT",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1649241647",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1649241647"
+      },
+      "name": "THOMAS J PRIGNANO",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1649241647"
+        }
+      ]
+    },
+    "address": {
+      "line1": "893 MAIN ST",
+      "line2": "SUITE 201",
+      "city": "EAST HARTFORD",
+      "state": "CT",
+      "zip": "061082292"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -72.643642,
+        41.769824
+      ]
+    },
+    "phone": "8605285816",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr9",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1780673582:70 CONNECTICUT BLVD:EAST HARTFORD:CT:061083013",
+    "practitioners": [
+      {
+        "_id": "4.6:x1780673582",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1780673582"
+        },
+        "name": {
+          "first": "STEVEN",
+          "middle": "H",
+          "last": "BLUME"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "213E00000X",
+        "classification": "PODIATRIST",
+        "specialization": "",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1780673582",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1780673582"
+      },
+      "name": "STEVEN H BLUME",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1780673582"
+        }
+      ]
+    },
+    "address": {
+      "line1": "70 CONNECTICUT BLVD",
+      "city": "EAST HARTFORD",
+      "state": "CT",
+      "zip": "061083013"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -72.647004,
+        41.769565
+      ]
+    },
+    "phone": "8605284000",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr10",
+        "tier": {
+          "_id": "c1:n1:p1:t3",
+          "name": "OK",
+          "rank": 3,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

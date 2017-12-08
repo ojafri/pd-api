@@ -1,0 +1,6 @@
+recordId,oid,extension,authority,name,specialtyCodes,hospitals,insurances,website,direct,email,description,isPrivate,isInactive,action
+,2.16.840.1.113883.4.6,x1083601256,,,,SLC MED Internal Medicine Center,AETNA / AETNA CHOICE POS II,www.vithalaOrg.com,vithalaorg@slcdirect.com,anilv@vithalaOrg.com,Center for internal medicine,,,update
+,2.16.840.1.113883.4.6,x1154410561,,,,SLC MED Eye Center,AETNA / AETNA FREEDOM 10,www.vroomanOpto.com,vroomanOpto@slcdirect.com,vroomang@vroomanOpto.com,Eye excellence at its best,,,update
+,2.16.840.1.113883.4.6,x1295760742,,,,SLC MED Orthopaedic Clinic,Basic Network,www.jeffOrthopaedic.com,jeffpaedic@slcdirect.com,jeffm@jeffOrthopaedic.com,Podiatrist in SLC,,,update
+,2.16.840.1.113883.4.6,x1649241647,,,,SLC MED Vision Center,AETNA / AETNA CHOICE II,www.TomVision.com,tomvision@slcdirect.com,tomp@tomvision.com,Best Eye clinic in Utah,,,update
+,2.16.840.1.113883.4.6,x1780673582,,,,SLC MED Foot Care Center,AETNA / AETNA FREEDOM 10,www.stevepod.com,stevepod@slcdirect.com,steveb@stevepod.com,Foot care at its excellence,,,update

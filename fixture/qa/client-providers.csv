@@ -1,0 +1,6 @@
+recordId,oid,extension,authority,firstName,lastName,specialtyCodes,hospitals,education,gender,insurances,languages,website,direct,email,description,isPrivate,isInactive,action
+,2.16.840.1.113883.4.6,x1033277462,,,,,SLC MED MENTAL HEALTH Center,MS,F,AETNA / AETNA CHOICE POS II,en|es,www.NinaNeuro.com,NinaNeuro@slcdirect.com,NinaJ@NinaNeuro.com,Best for PSYCHIATRY & NEUROLOGY,,,update
+,2.16.840.1.113883.4.6,x1073532339,,,,,SLC MED Medicine Clinic,MD,M,Basic Network,en,www.vincentMed.com,vincentmed@slcdirect.com,vincentl@vincentMed.com,one stop clinic for internal medicine,,,update
+,2.16.840.1.113883.4.6,x1083601256,,,,,SLC MED Internal Medicine Center,PHD,M,AETNA / AETNA CHOICE POS II,en|hi,www.vithalaOrg.com,vithalaorg@slcdirect.com,anilv@vithalaOrg.com,Center for internal medicine,,,update
+,2.16.840.1.113883.4.6,x1134146574,,,,,SLC MED Health Clinic,GED,M,AETNA / AETNA FREEDOM 10,en,www.davidcardio.com,davidcardio@slcdirect.com,davidh@davidcardio.com,Best Cardio center,,,update
+,2.16.840.1.113883.4.6,x1154410561,,,,,SLC MED Eye Center,DO,M,AETNA / AETNA FREEDOM 10,en,www.vroomanOpto.com,vroomanOpto@slcdirect.com,vroomang@vroomanOpto.com,Eye excellence at its best,,,update

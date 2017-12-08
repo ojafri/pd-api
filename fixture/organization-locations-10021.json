@@ -1,0 +1,496 @@
+[
+  {
+    "_id": "4.6:x1013078732:220 E 59TH ST:NEW YORK:NY:100215737",
+    "practitioners": [
+      {
+        "_id": "4.6:x1013078732",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013078732"
+        },
+        "name": {
+          "first": "SPYROS",
+          "middle": "GE",
+          "last": "MEZITIS"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "207RE0101X",
+        "classification": "INTERNAL MEDICINE",
+        "specialization": "ENDOCRINOLOGY, DIABETES & METABOLISM",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1013078732",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1013078732"
+      },
+      "name": "SPYROS GE MEZITIS",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013078732"
+        }
+      ]
+    },
+    "address": {
+      "line1": "220 E 59TH ST",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "100215737"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -73.966308,
+        40.761226
+      ]
+    },
+    "phone": "2122886661",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr1",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1013088210:154 E 71ST ST:NEW YORK:NY:100215123",
+    "practitioners": [
+      {
+        "_id": "4.6:x1013088210",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013088210"
+        },
+        "name": {
+          "first": "MITCHELL",
+          "last": "BORGIDA"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "1041C0700X",
+        "classification": "SOCIAL WORKER",
+        "specialization": "CLINICAL",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1013088210",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1013088210"
+      },
+      "name": "MITCHELL BORGIDA",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013088210"
+        }
+      ]
+    },
+    "address": {
+      "line1": "154 E 71ST ST",
+      "line2": "SUITE 1B",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "100215123"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -73.962221,
+        40.769412
+      ]
+    },
+    "phone": "2128790357",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr2",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1013915057:888 PARK AVE:NEW YORK:NY:100210235",
+    "practitioners": [
+      {
+        "_id": "4.6:x1013915057",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013915057"
+        },
+        "name": {
+          "first": "ALAN",
+          "middle": "H",
+          "last": "FRIEDMAN"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "207W00000X",
+        "classification": "OPHTHALMOLOGY",
+        "specialization": "",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1013915057",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1013915057"
+      },
+      "name": "ALAN H FRIEDMAN",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1013915057"
+        }
+      ]
+    },
+    "address": {
+      "line1": "888 PARK AVE",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "100210235"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -73.961101,
+        40.775245
+      ]
+    },
+    "phone": "2127942277",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr3",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1033194675:320 E 72ND ST:NEW YORK:NY:100214769",
+    "practitioners": [
+      {
+        "_id": "4.6:x1033194675",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1033194675"
+        },
+        "name": {
+          "first": "PAUL",
+          "last": "BASUK"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "207RG0100X",
+        "classification": "INTERNAL MEDICINE",
+        "specialization": "GASTROENTEROLOGY",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:1033194675",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1033194675"
+      },
+      "name": "PAUL BASUK",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1033194675"
+        }
+      ]
+    },
+    "address": {
+      "line1": "320 E 72ND ST",
+      "line2": "SUITE 6B",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "100214769"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -73.957635,
+        40.768326
+      ]
+    },
+    "phone": "2128619715",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr4",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1033285507:11 E 68TH ST:NEW YORK:NY:100214955",
+    "practitioners": [
+      {
+        "_id": "4.6:x1033285507",
+        "id": {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1033285507"
+        },
+        "name": {
+          "first": "TERUKO",
+          "last": "NEUWALDER"
+        }
+      }
+    ],
+    "specialties": [
+      {
+        "code": "2084P0800X",
+        "classification": "PSYCHIATRY & NEUROLOGY",
+        "specialization": "PSYCHIATRY",
+        "system": "2.16.840.1.113883.6.101",
+        "isPrimary": true
+      }
+    ],
+    "organization": {
+      "_id": "4.6:x1033285507",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1033285507"
+      },
+      "name": "TERUKO NEUWALDER",
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1033285507"
+        }
+      ]
+    },
+    "address": {
+      "line1": "11 E 68TH ST",
+      "line2": "SUITE 1 B",
+      "city": "NEW YORK",
+      "state": "NY",
+      "zip": "100214955"
+    },
+    "geoPoint": {
+      "type": "Point",
+      "coordinates": [
+        -73.96761,
+        40.769451
+      ]
+    },
+    "phone": "2127370404",
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr5",
+        "tier": {
+          "_id": "c1:n1:p1:t3",
+          "name": "OK",
+          "rank": 3,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

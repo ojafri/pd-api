@@ -1,0 +1,10 @@
+networkId,networkName,networkDesc,isNetworkInactive,planId,planName,planDesc,isPlanInactive,tierId,tierName,isTierInactive,tierBenefits,tierRank,isTierInNetwork
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p1,QAG Plan1,QA Gold Product Covers All,false,QAC1:n1:p1:t1	,QA Tier1,false,100% coverage w/$0 co-pay,1,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p1,QAG Plan1,QA Gold Product Covers All,false,QAC1:n1:p1:t2,QA Tier2,false,90% coverage w/$25 co-pay,2,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p1,QAG Plan1,QA Gold Product Covers All,false,QAC1:n1:p1:t3,OK,false,80% coverage w/$50 co-pay,3,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p1,QAG Plan1,QA Gold Product Covers All,false,QAC1:n1:p1:t4,Allowed,false,70% coverage w/$50 co-pay,4,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p1,QAG Plan1,QA Gold Product Covers All,false,QAC1:n1:p1:t5,Out Of Network,false,60% coverage w/$50 co-pay,5,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p2,QAG Plan2,QA Silver Product Covers Major,false,QAC1:n1:p2:t1,In Network,false,,1,true
+QAC1:n1,QANet,a plan-network,false,QAC1:n1:p2,QAG Plan2,QA Silver Product Covers Major,false,QAC1:n1:p2:t2,Out Of Network,false,,2,true
+QAC1:n2,QA Simple Network,a simple-network,false,QAC1:n2:p1,QA Simple Net Plan1,QA simple Plan Covers Simple,false,QAC1:n2:p1:t1,In Network,false,simple coverage,1,true
+QAC1:n2,QA Simple Network,a simple-network,false,QAC1:n2:p1,QA Simple Net Plan1,QA simple Plan Covers Simple,false,QAC1:n2:p1:t2,Out Of Network,false,minor coverage,2,true

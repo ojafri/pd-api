@@ -1,0 +1,532 @@
+[
+  {
+    "_id": "4.6:x1003005372:e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+    "practitioner": {
+      "_id": "4.6:x1003005372",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1003005372"
+      },
+      "name": {
+        "first": "JESUEL",
+        "last": "PADRO-GUZMAN"
+      },
+      "specialties": [
+        {
+          "code": "208100000X",
+          "classification": "PHYSICAL MEDICINE & REHABILITATION",
+          "specialization": "",
+          "system": "2.16.840.1.113883.6.101",
+          "isPrimary": true
+        }
+      ],
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1003005372"
+        }
+      ]
+    },
+    "location": {
+      "_id": "e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+      "organization": {
+        "_id": "e:pac:x6800709023",
+        "id": {
+          "authority": "pac",
+          "oid": "pac",
+          "extension": "x6800709023"
+        },
+        "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+        "identifiers": [
+          {
+            "authority": "pac",
+            "oid": "pac",
+            "extension": "x6800709023"
+          }
+        ]
+      },
+      "address": {
+        "line1": "1305 YORK AVE",
+        "city": "NEW YORK",
+        "state": "NY",
+        "zip": "100215663"
+      },
+      "geoPoint": {
+        "type": "Point",
+        "coordinates": [
+          -73.955054,
+          40.765378
+        ]
+      },
+      "phone": "2125905723"
+    },
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr11",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1003005372:e:pac:x6800709023:505 E 70TH ST:NEW YORK:NY:100214872",
+    "practitioner": {
+      "_id": "4.6:x1003005372",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1003005372"
+      },
+      "name": {
+        "first": "JESUEL",
+        "last": "PADRO-GUZMAN"
+      },
+      "specialties": [
+        {
+          "code": "208100000X",
+          "classification": "PHYSICAL MEDICINE & REHABILITATION",
+          "specialization": "",
+          "system": "2.16.840.1.113883.6.101",
+          "isPrimary": true
+        }
+      ],
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1003005372"
+        }
+      ]
+    },
+    "location": {
+      "_id": "e:pac:x6800709023:505 E 70TH ST:NEW YORK:NY:100214872",
+      "organization": {
+        "_id": "e:pac:x6800709023",
+        "id": {
+          "authority": "pac",
+          "oid": "pac",
+          "extension": "x6800709023"
+        },
+        "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+        "identifiers": [
+          {
+            "authority": "pac",
+            "oid": "pac",
+            "extension": "x6800709023"
+          }
+        ]
+      },
+      "address": {
+        "line1": "505 E 70TH ST",
+        "city": "NEW YORK",
+        "state": "NY",
+        "zip": "100214872"
+      },
+      "geoPoint": {
+        "type": "Point",
+        "coordinates": [
+          -73.954116,
+          40.765437
+        ]
+      },
+      "phone": "2127462917"
+    },
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr12",
+        "tier": {
+          "_id": "c1:n1:p1:t1",
+          "name": "Super Preferred",
+          "rank": 1,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1003033184:e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+    "practitioner": {
+      "_id": "4.6:x1003033184",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1003033184"
+      },
+      "name": {
+        "first": "MARGARET",
+        "middle": "L",
+        "last": "MCNAIRY"
+      },
+      "specialties": [
+        {
+          "code": "208M00000X",
+          "classification": "HOSPITALIST",
+          "specialization": "",
+          "system": "2.16.840.1.113883.6.101",
+          "isPrimary": true
+        }
+      ],
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1003033184"
+        }
+      ]
+    },
+    "location": {
+      "_id": "e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+      "organization": {
+        "_id": "e:pac:x6800709023",
+        "id": {
+          "authority": "pac",
+          "oid": "pac",
+          "extension": "x6800709023"
+        },
+        "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+        "identifiers": [
+          {
+            "authority": "pac",
+            "oid": "pac",
+            "extension": "x6800709023"
+          }
+        ]
+      },
+      "address": {
+        "line1": "1305 YORK AVE",
+        "city": "NEW YORK",
+        "state": "NY",
+        "zip": "100215663"
+      },
+      "geoPoint": {
+        "type": "Point",
+        "coordinates": [
+          -73.955054,
+          40.765378
+        ]
+      }
+    },
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr13",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1003033184:e:pac:x6800709023:1305 YORK AVE 8TH FL:NEW YORK:NY:100215663",
+    "practitioner": {
+      "_id": "4.6:x1003033184",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1003033184"
+      },
+      "name": {
+        "first": "MARGARET",
+        "middle": "L",
+        "last": "MCNAIRY"
+      },
+      "specialties": [
+        {
+          "code": "208M00000X",
+          "classification": "HOSPITALIST",
+          "specialization": "",
+          "system": "2.16.840.1.113883.6.101",
+          "isPrimary": true
+        }
+      ],
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1003033184"
+        }
+      ]
+    },
+    "location": {
+      "_id": "e:pac:x6800709023:1305 YORK AVE 8TH FL:NEW YORK:NY:100215663",
+      "organization": {
+        "_id": "e:pac:x6800709023",
+        "id": {
+          "authority": "pac",
+          "oid": "pac",
+          "extension": "x6800709023"
+        },
+        "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+        "identifiers": [
+          {
+            "authority": "pac",
+            "oid": "pac",
+            "extension": "x6800709023"
+          }
+        ]
+      },
+      "address": {
+        "line1": "1305 YORK AVE 8TH FL",
+        "city": "NEW YORK",
+        "state": "NY",
+        "zip": "100215663"
+      },
+      "geoPoint": {
+        "type": "Point",
+        "coordinates": [
+          -73.955054,
+          40.765378
+        ]
+      },
+      "phone": "6469623456"
+    },
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr14",
+        "tier": {
+          "_id": "c1:n1:p1:t2",
+          "name": "Preferred",
+          "rank": 2,
+          "isInNetwork": true,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "_id": "4.6:x1003074311:e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+    "practitioner": {
+      "_id": "4.6:x1003074311",
+      "id": {
+        "authority": "npi",
+        "oid": "2.16.840.1.113883.4.6",
+        "extension": "x1003074311"
+      },
+      "name": {
+        "first": "VISHWAS",
+        "middle": "A",
+        "last": "SINGH"
+      },
+      "specialties": [
+        {
+          "code": "390200000X",
+          "classification": "STUDENT IN AN ORGANIZED HEALTH CARE EDUCATION/TRAINING PROGRAM",
+          "specialization": "",
+          "system": "2.16.840.1.113883.6.101",
+          "isPrimary": true
+        }
+      ],
+      "identifiers": [
+        {
+          "authority": "npi",
+          "oid": "2.16.840.1.113883.4.6",
+          "extension": "x1003074311"
+        }
+      ]
+    },
+    "location": {
+      "_id": "e:pac:x6800709023:1305 YORK AVE:NEW YORK:NY:100215663",
+      "organization": {
+        "_id": "e:pac:x6800709023",
+        "id": {
+          "authority": "pac",
+          "oid": "pac",
+          "extension": "x6800709023"
+        },
+        "name": "WEILL MEDICAL COLLEGE OF CORNELL",
+        "identifiers": [
+          {
+            "authority": "pac",
+            "oid": "pac",
+            "extension": "x6800709023"
+          }
+        ]
+      },
+      "address": {
+        "line1": "1305 YORK AVE",
+        "city": "NEW YORK",
+        "state": "NY",
+        "zip": "100215663"
+      },
+      "geoPoint": {
+        "type": "Point",
+        "coordinates": [
+          -73.955054,
+          40.765378
+        ]
+      }
+    },
+    "created": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "updated": {
+      "source": {
+        "_id": "c1",
+        "name": "client-1"
+      },
+      "date": {
+        "$date": "2016-12-10T06:40:37.330Z"
+      }
+    },
+    "tierRefs": [
+      {
+        "_id": "tr15",
+        "tier": {
+          "_id": "c1:n1:p1:t3",
+          "name": "OK",
+          "rank": 3,
+          "plan": {
+            "_id": "c1:n1:p1",
+            "name": "Aetna Choice POS II",
+            "product": "PPO",
+            "network": {
+              "_id": "c1:n1",
+              "name": "Aetna",
+              "client": {
+                "_id": "c1",
+                "name": "client one"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

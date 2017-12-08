@@ -1,0 +1,6 @@
+organizationOid.string()
+organizationExtension.string()
+providerOid.string()
+providerExtension.string()
+tierId.string()
+action.string()

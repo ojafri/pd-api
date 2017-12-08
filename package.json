@@ -1,0 +1,109 @@
+{
+  "name": "provider-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "repository": "git@github.com:medicity/provider-directory-api.git",
+  "author": "medicity",
+  "license": "ISC",
+  "scripts": {
+    "start": "cross-env DEBUG=app:* babel-watch src/api",
+    "start-test": "cross-env NODE_ENV=auto DEBUG=app:* babel-watch src/api",
+    "ava": "cross-env NODE_ENV=auto ava -s test/ava",
+    "ava-debug": "cross-env DEBUG=test:*,app:* NODE_ENV=auto ava -s",
+    "cuke": "npm run cuke-batch && npm run cuke-api",
+    "cuke-batch": "cross-env NODE_ENV=auto cucumber-js --compiler=js:babel-polyfill --compiler=js:babel-core/register test/cuke-batch",
+    "cuke-batch-debug": "cross-env NODE_ENV=auto DEBUG=test:*,app:* cucumber-js --compiler=js:babel-polyfill --compiler=js:babel-core/register test/cuke-batch",
+    "cuke-api": "cross-env NODE_ENV=auto cucumber-js --compiler=js:babel-polyfill --compiler=js:babel-core/register test/cuke-api",
+    "cuke-api-debug": "cross-env NODE_ENV=auto DEBUG=test:*,app:* cucumber-js --compiler=js:babel-polyfill --compiler=js:babel-core/register test/cuke-api",
+    "cuke-feature": "cross-env DEBUG=test:*,app:* NODE_ENV=auto cucumber-js --compiler=js:babel-polyfill --compiler=js:babel-core/register",
+    "pretest": "xo",
+    "test": "npm run ava && npm run cuke",
+    "prebuild": "npm run test",
+    "build": "babel src -d dist",
+    "indexer": "cross-env DEBUG=app:* babel-node src/batch/indices/indexer.js",
+    "npi-providers": "cross-env DEBUG=app:* babel-node src/batch/npi-providers.js",
+    "geocoder": "cross-env DEBUG=app:* babel-node src/framework/batch/geocoder.js",
+    "provider-locations": "cross-env DEBUG=app:* babel-node src/batch/provider-locations.js",
+    "organization-locations": "cross-env DEBUG=app:* babel-node src/batch/organization-locations.js",
+    "providers": "cross-env DEBUG=app:* babel-node src/batch/providers.js",
+    "organizations": "cross-env DEBUG=app:* babel-node src/batch/organizations.js",
+    "provider-organizations": "cross-env DEBUG=app:* babel-node src/batch/provider-organizations.js",
+    "specialties": "cross-env DEBUG=app:* babel-node src/batch/specialties.js",
+    "cms-dialysis-facility-locations": "cross-env DEBUG=app:* babel-node src/batch/cms-dialysis-facility-locations.js",
+    "cms-hospice-agency-locations": "cross-env DEBUG=app:* babel-node src/batch/cms-hospice-agency-locations.js",
+    "cms-hospital-locations": "cross-env DEBUG=app:* babel-node src/batch/cms-hospital-locations.js",
+    "cms-nursing-home-locations": "cross-env DEBUG=app:* babel-node src/batch/cms-nursing-home-locations.js",
+    "cms-home-health-agency-locations": "cross-env DEBUG=app:* babel-node src/batch/cms-home-health-agency-locations.js",
+    "geocode-cms-dialysis-facility-locations": "cross-env DEBUG=app:* npm run geocoder -- --inputCollection=cmsOriginalDialysisFacilities --line1Field=Address_line_1 --cityField=City --stateField=STATE --zipField=Zip",
+    "geocode-cms-hospice-agency-locations": "cross-env DEBUG=app:* npm run geocoder -- --inputCollection=cmsOriginalHospiceAgencies --line1Field=Address_Street --cityField=Address_City --stateField=State_Abbreviation --zipField=Address_Zip_Code",
+    "geocode-cms-hospital-locations": "cross-env DEBUG=app:* npm run geocoder -- --inputCollection=cmsOriginalHospitalLocations --line1Field=Address --cityField=City --stateField=State --zipField=ZIP_Code",
+    "geocode-cms-nursing-home-locations": "cross-env DEBUG=app:* npm run geocoder -- --inputCollection=cmsOriginalNursingHomes --line1Field=ADDRESS --cityField=CITY --stateField=STATE --zipField=ZIP",
+    "geocode-cms-home-health-agency-locations": "cross-env DEBUG=app:* npm run geocoder -- --inputCollection=cmsOriginalHHAgencies --line1Field=Address --cityField=City --stateField=State --zipField=Zip",
+    "clients": "cross-env DEBUG=app:* babel-node src/batch/clients.js",
+    "client-organizations": "cross-env DEBUG=app:* babel-node src/batch/client-organizations.js",
+    "client-providers": "cross-env DEBUG=app:* babel-node src/batch/client-providers.js",
+    "client-organization-tiers": "cross-env DEBUG=app:* babel-node src/batch/client-organization-tiers.js",
+    "client-provider-organization-tiers": "cross-env DEBUG=app:* babel-node src/batch/client-provider-organization-tiers.js",
+    "client-organization-locations": "cross-env DEBUG=app:* babel-node src/batch/client-organization-locations.js",
+    "client-provider-locations": "cross-env DEBUG=app:* babel-node src/batch/client-provider-locations.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel-polyfill": "^6.23.0",
+    "body-parser": "^1.16.1",
+    "config": "^1.24.0",
+    "debug": "^2.6.3",
+    "express": "^4.14.1",
+    "express-jwt": "^5.1.0",
+    "geocodr": "^1.1.6",
+    "helpr": "^0.12.0",
+    "iso-639-1": "^1.3.0",
+    "joi": "^10.3.1",
+    "lodash": "^4.17.4",
+    "mongo-helpr": "^0.9.2",
+    "mongodb": "^2.2.25",
+    "tymer": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.3.3",
+    "babel-watch": "^2.0.6",
+    "cross-env": "^3.2.4",
+    "cucumber": "^1.3.1",
+    "cuke-helpr": "^0.2.0",
+    "jsondiffpatch": "^0.2.4",
+    "mongo-cuke-helpr": "^0.3.6",
+    "mongo-test-helpr": "^0.1.9",
+    "require-uncached": "^1.0.3",
+    "test-helpr": "^0.3.2",
+    "xo": "^0.18.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ]
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "rules": {
+      "capitalized-comments": "off",
+      "import/prefer-default-export": "off",
+      "linebreak-style": "off",
+      "new-cap": "off",
+      "no-console": "error",
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowShortCircuit": true,
+          "allowTernary": true
+        }
+      ],
+      "radix": "off"
+    }
+  }
+}
